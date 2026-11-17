@@ -9,4 +9,4 @@ function Preloader() {
   )
 }
 
-export default Preloader
+export default Preloader  
