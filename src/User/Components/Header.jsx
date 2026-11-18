@@ -18,7 +18,7 @@ function Header() {
      {/*Title*/}
      <div className='md:flex justify-center items-center hidden'>
       <h1 className='text-3xl font-bold'>Bookstore</h1>
-     </div>
+     </div>  
      {/*Login*/}
      <div className='md:flex items-center justify-end hidden'>
       <FaInstagram/>

@@ -10,7 +10,7 @@ function Footer() {
           {/*About Us*/}
           <div>
            <h4 className='font-bold'>ABOUT US</h4>
-           <p className='mt-5 text-justify'>We belive books are more than just pages-they are windows into new world,teachers of wisdom,and companions for life.Our journey began with a passion for storytelling and a mission to make reading accessible,enjoyable ,and inspiring for everyone</p>
+           <p className='mt-5 text-justify'>We believe books are more than just pages-they are windows into new world,teachers of wisdom,and companions for life.Our journey began with a passion for storytelling and a mission to make reading accessible,enjoyable ,and inspiring for everyone</p>
           </div>
           {/*News Letter*/}
            <div>
@@ -25,7 +25,7 @@ function Footer() {
             <div>
             <h4 className='font-bold'>FOLLOW US</h4>
             <p className='my-5'>Let us be social</p>
-            <div className='flex'>
+            <div className='flex'>   
           
              <FaFacebook/>
                 <FaInstagram className='mx-5'/>
@@ -33,7 +33,7 @@ function Footer() {
                 <FaEnvelope className='mx-5'/>
             </div>
            </div>
-        </div>
+        </div>   
      </>
   )
 }
