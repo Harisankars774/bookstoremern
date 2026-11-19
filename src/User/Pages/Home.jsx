@@ -39,7 +39,7 @@ function Home() {
         <div className='my-10'>
           <Link to={'/books'} className='bg-black p-3 text-white rounded'>Explore more</Link>
         </div>
-      </section>
+      </section>  
       {/*Authors*/}
       <section className='md:grid grid-cols-2 items-center gap-10 md:px-40'>
         <div className='text-center'>
@@ -56,7 +56,7 @@ function Home() {
  <p className='text-justify'><span className='font-bold'>📖 Published Works :</span> Explore a curated list of books written by the author with quick access to book details, reviews, and purchase options.
 </p>
 
-<p className='text-justify my-4'>
+<p className='text-justify my-4'>   
 <span className='font-bold'>🎤 Interviews & Insights :</span> Exclusive interviews, behind-the-scenes stories, and writing tips that offer a deeper look into the author’s creative world.</p>
         </div>
         <div className='p-5'>
