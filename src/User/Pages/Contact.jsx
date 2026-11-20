@@ -59,10 +59,11 @@ function Contact() {
                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.972465653133!2d76.34116201554048!3d10.01913074237044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ffce877d5ef%3A0x8bef6870ad11b98!2sLuminar%20Technolab%20-%20Software%20Training%20institute%20in%20Kochi!5e0!3m2!1sen!2sin!4v1795065846997!5m2!1sen!2sin" width="100%" height="450" style={{border:'0'}} allowFullScreen="" loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
              </div>
          </div>
-      </div>
-    <Footer/>    
-    </>
+      </div>  
+    <Footer/>      
+    
+    </>  
   )  
 }
 
-export default Contact  
+export default Contact    

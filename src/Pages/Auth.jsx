@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Auth({insideRegister}) {
   const[togglePasswordType,setTogglePasswordType]=useState(false)
   return (
-    <div className='w-full min-h-screen flex justify-center items-center bg-[url(landing.png)] bg-cover bg-center text-white '>
+    <div className='w-full min-h-screen flex justify-center items-center bg-[url(/landing.png)] bg-cover bg-center text-white '>
       <div className='p-10'>
         <h1 className='font-bold text-3xl text-center'>BOOKSTORE</h1>
         <div style={{width:'400px'}} className='bg-black text-white p-5 flex justify-center items-center flex-col my-5'>
