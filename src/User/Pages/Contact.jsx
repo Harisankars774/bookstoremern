@@ -48,7 +48,7 @@ function Contact() {
                     <input type='email' placeholder='Email' className='bg-white w-full p-2'/>
                   </div>
                     <div className='mb-5 mt-5'>
-                    <textarea type='text' placeholder='Message' className='bg-white w-full p-2'/>
+                    <textarea type='text' placeholder='Message' className='bg-white w-full p-2'/>  
                   </div>
                     <div className='my-5'>
                    <button className='bg-black text-white w-full p-2 rounded flex justify-center items-center'>Submit<FaPaperPlane className='ms-2'/></button> 
