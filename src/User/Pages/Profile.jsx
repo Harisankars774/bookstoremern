@@ -4,6 +4,7 @@ import Header from '../Components/Header'
 import Footer from '../../Components/Footer'
 import { FaCircleCheck } from 'react-icons/fa6'
 import Edit from '../Components/Edit'
+import UploadBooks from '../Components/UploadBooks'
 
 function Profile() {
   const[currentTab,setCurrentTab]=useState(1)
@@ -20,7 +21,7 @@ function Profile() {
           <h1 className='font-bold md:text-3xl text-2xl'>USERNAME</h1>
           <FaCircleCheck className='text-blue-500 ms-3'/>
         </div>
-        <Edit/>
+        <Edit/>  
        </div>
         <p className='text-xl font-bold px-20 mt-5'>Bio</p>
         <p className='text-justify md:px-20 px-5 my-5'>This is your personal space where you can manage your account,explore your reading activity,track your orders ,and save books you love.Whether you are building a Wishlist,discovering new arrivals ,or reviewing your recent purchases,this page keeps everything organized and easy to access.Your reading journey continues here-enjoy exploring,discovering ,and collecting stories that inspire you.</p>
@@ -28,9 +29,9 @@ function Profile() {
           <p onClick={()=>setCurrentTab(1)} className={currentTab==1 ? 'p-4 border-gray-200 border-l border-t border-r rounded cursor-ponter' :'p-4 border-gray-200 border-b rounded cursor-pointer' }>Upload book</p>
           <p onClick={()=>setCurrentTab(2)} className={currentTab==2 ? 'p-4 border-gray-200 border-l border-t border-r rounded cursor-ponter' :'p-4 border-gray-200 border-b rounded cursor-pointer' }>Upload book status</p>
           <p onClick={()=>setCurrentTab(3)} className={currentTab==3 ? 'p-4 border-gray-200 border-l border-t border-r rounded cursor-ponter' :'p-4 border-gray-200 border-b rounded cursor-pointer' }>Purchase History</p>
-        </div>
+        </div>  
 
-        {currentTab==1 && <div>Upload books</div>}
+        {currentTab==1 && <div><UploadBooks/></div>}
        {currentTab==2 && <div>Upload book status</div> } 
        {currentTab==3 && <div>Purchase History</div> } 
           

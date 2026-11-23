@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
-         <Header/>
+         <Header/>  
     
       {/*Hero section */}
       <div style={{height:"600px"}} className='flex flex-col justify-center items-center bg-[url(/landing.png)] bg-cover text-white'>

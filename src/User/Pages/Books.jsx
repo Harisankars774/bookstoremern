@@ -49,7 +49,7 @@ function Books() {
                   <h3 className='text-lg mt-2'>Title</h3>
                  <Link to={'/books/:id'} className='bg-blue-800 font-bold text-white p-2 rounded mt-2'> View book</Link>
                  </div>
-             </div>
+             </div>  
           </div>   
         </div>
       </div> 
