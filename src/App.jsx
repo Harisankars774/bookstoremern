@@ -12,6 +12,7 @@ import AdminDashboard from './Admin/Pages/AdminDashboard'
 import AdminResource from './Admin/Pages/AdminResource'
 import AdminSettings from './Admin/Pages/AdminSettings'
 import Preloader from './Components/Preloader'
+import PageNotFound from './Pages/PageNotFound'
 function App() {
   const[isLoading,setLoading]=useState(true)
 setTimeout(() => {
@@ -32,6 +33,7 @@ setTimeout(() => {
             <Route path='/admin' element={<AdminDashboard/>}/>
             <Route path='/admin/resources' element={<AdminResource/>}/>
             <Route path='/admin/settings' element={<AdminSettings/>}/>
+            <Route path='/*' element={<PageNotFound/>}/>
      </Routes>
     </>
   )

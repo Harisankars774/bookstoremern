@@ -5,7 +5,7 @@ import { FaX } from 'react-icons/fa6'
 function Edit() {
   const[offCanvas,setOffCanvas]=useState(false)
   return (
-    <div>
+    <div> 
         {/*Button */}
         <button onClick={()=>setOffCanvas(true)} className='flex justify-center items-center bg-black text-white font-bold p-2 hover:bg-white hover:text-black border'>
           <FaPen className='me-2'/>  EDIT
@@ -33,7 +33,7 @@ function Edit() {
               {/*username*/} 
               <div className='mt-10 mb-3 w-75'>
                 <input type='text' placeholder='Username' className='w-full bg-gray-200 rounded p-2'/>
-              </div>
+              </div>  
                {/*Password*/} 
                 <div className=' mb-3 w-75'>
                 <input type='text' placeholder='New Password' className='w-full bg-gray-200 rounded p-2'/>

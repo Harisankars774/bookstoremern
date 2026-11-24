@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPlus } from 'react-icons/fa'
 
 function UploadBooks() {
   return (
@@ -51,10 +52,23 @@ function UploadBooks() {
                         <img style={{borderRadius:'50%'}} height={'200px'} width={'200px'} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqLVAWjGNLisPu9EGkRoNmotUBo8Nq2M2DXxdStf3oAQ&s=10'/>
                     </label>
                 </div>
+                {/*preview uploaded images */ }
+                <div className='flex justify-center items-center mb-3'>
+                  <img width={'70px'} height={'70px'} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEjm1rbKCFpbtCwRDP5iiVRuEyKzcMdPNyjNLfQ77Pf_lzRcuLFsTjd-Tl&s=10'/>
+                   <label htmlFor='bookUpload'>
+                     <input type='file' id='bookUpload' hidden/>
+                     <FaPlus className='text-2xl ms-3'/>
+                   </label>
+                  </div>
             </div>
           </div>
-        </div>  
+          {/*reset and add books */}
+          <div className='flex md: justify-end justify-center mt-10 px-5 '>
+            <button className='bg-gray-400 text-white px-3 py-2 rounded hover:bg-white hover:text-gray-600'>RESET</button>
+            <button className='bg-blue-400 text-white px-3 py-2 rounded hover:bg-white hover:text-blue-600 ms-5'>ADD BOOK DETAILS</button>
+          </div>
+        </div>      
   )
 }
 
-export default UploadBooks
+export default UploadBooks   
