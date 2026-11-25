@@ -32,7 +32,7 @@ function UploadBooks() {
                 </div>
            </div>
              {/*2nd section */}
-            <div className='px-5'>
+            <div className='px-5'> 
                <div className='mb-3'>
                    <input type='text' placeholder='Publisher' className='w-full p-2 bg-white rounded'/>
                 </div>

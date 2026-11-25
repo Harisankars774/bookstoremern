@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 
 function Header() {
-  const[toggle,setToggle]=useState(false)
+  const[toggle,setToggle]=useState(false) 
   return (
     <>
          {/* Header top part   */}
@@ -14,7 +14,7 @@ function Header() {
      <div className='flex items-center'>
        <img width={'50px'} height={'50px'} src="https://pngimg.com/uploads/book/book_PNG51090.png" alt='logo'/>
        <h1 className='text-2xl ms-3 font-bold md:hidden'>Bookstore</h1>
-     </div>
+     </div> 
      {/*Title*/}
      <div className='md:flex justify-center items-center hidden'>
       <h1 className='text-3xl font-bold'>Bookstore</h1>

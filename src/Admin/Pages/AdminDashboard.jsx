@@ -11,7 +11,7 @@ function Admindashboard() {
         <div className='col-span-1'>
            <AdminSidebar/>
         </div>
-        {/*2nd section 4 grid */}
+        {/*2nd section 4 grid */} 
         <div className='col-span-4'>
             Admin Dashboard
         </div>
